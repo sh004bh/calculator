@@ -15,7 +15,7 @@ public class CalculatorTest extends Mockito{
         HttpServletResponse response = mock(HttpServletResponse.class);    
 
 
-        when(request.getParameter("n1")).thenReturn("8");
+        when(request.getParameter("n1")).thenReturn("7");
         when(request.getParameter("n2")).thenReturn("2");
         when(request.getParameter("r1")).thenReturn("r1");
         
@@ -36,7 +36,7 @@ public class CalculatorTest extends Mockito{
         HttpServletResponse response = mock(HttpServletResponse.class);    
 
 
-        when(request.getParameter("n1")).thenReturn("8");
+        when(request.getParameter("n1")).thenReturn("7");
         when(request.getParameter("n2")).thenReturn("2");
         when(request.getParameter("r2")).thenReturn("r2");
         
@@ -57,7 +57,7 @@ public class CalculatorTest extends Mockito{
         HttpServletResponse response = mock(HttpServletResponse.class);    
 
 
-        when(request.getParameter("n1")).thenReturn("8");
+        when(request.getParameter("n1")).thenReturn("7");
         when(request.getParameter("n2")).thenReturn("2");
         when(request.getParameter("r3")).thenReturn("r3");
         
@@ -78,7 +78,7 @@ public class CalculatorTest extends Mockito{
         HttpServletResponse response = mock(HttpServletResponse.class);    
 
 
-        when(request.getParameter("n1")).thenReturn("8");
+        when(request.getParameter("n1")).thenReturn("7");
         when(request.getParameter("n2")).thenReturn("2");
         when(request.getParameter("r4")).thenReturn("r4");
         
